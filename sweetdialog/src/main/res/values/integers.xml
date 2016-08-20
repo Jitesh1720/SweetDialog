@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="show_alpha">240</integer>
+    <integer name="show_scale_out">135</integer>
+    <integer name="show_scale_in">135</integer>
+
+    <integer name="hide_alpha">150</integer>
+    <integer name="hide_scale">150</integer>
+</resources>
