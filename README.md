@@ -4,7 +4,7 @@ Use DialogFragment instead of AlertDialog.
 
 #Screen Shot
 
-[!MaterialProgressBar](screenshot/demo.gif)
+![MaterialProgressBar](screenshot/demo.gif)
 
 ##Dependencies
 [MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar)
