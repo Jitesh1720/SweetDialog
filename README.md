@@ -2,6 +2,16 @@
 Inspired by sweet-alert-dialog.
 Use DialogFragment instead of AlertDialog.
 
+#Screen Shot
+
+[!MaterialProgressBar](screenshot/demo.gif)
+
+##Dependencies
+[MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar)
+
+##How to use
+Please see the demo
+
 ## License
 
     MIT License

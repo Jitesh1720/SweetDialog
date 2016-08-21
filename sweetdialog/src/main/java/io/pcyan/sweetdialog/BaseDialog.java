@@ -39,7 +39,7 @@ public abstract class BaseDialog extends DialogFragment {
 
         mActivity = getActivity();
 
-        rootView = inflater.inflate(R.layout.dialog_base, container, false);
+        rootView = inflater.inflate(R.layout.sd_dialog_base, container, false);
         FrameLayout root_rl = (FrameLayout) rootView.findViewById(R.id.root_rl);
 
         rootView.setOnClickListener(new View.OnClickListener() {

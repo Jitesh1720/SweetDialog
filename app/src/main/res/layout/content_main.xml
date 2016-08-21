@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
     tools:context="com.example.err0r.sweetdialogsample.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
-        android:text="Show Dialog"
-        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
         android:textAllCaps="false"
+        android:text="normal"
         android:layout_height="wrap_content" />
-</RelativeLayout>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:text="custom image"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:text="custom view"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:text="progress"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="false"
+        android:text="gravity"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
