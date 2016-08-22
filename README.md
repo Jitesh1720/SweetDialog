@@ -10,7 +10,10 @@ Use DialogFragment instead of AlertDialog.
 [MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar)
 
 ##How to use
-Please see the demo
+
+`compile 'io.pcyan:SweetDialog:1.0.0'`
+
+For more information please see the demo.
 
 ## License
 
