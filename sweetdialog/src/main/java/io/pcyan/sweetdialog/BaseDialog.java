@@ -13,11 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-/**
- * 作者：err0r <br/>
- * 日期: 2016/8/10 17:46 <br/>
- * 描述:
- */
 public abstract class BaseDialog extends DialogFragment {
 
     protected Activity mActivity;

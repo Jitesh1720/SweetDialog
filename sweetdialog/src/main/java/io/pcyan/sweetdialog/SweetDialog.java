@@ -19,11 +19,6 @@ import java.lang.annotation.RetentionPolicy;
 
 import me.zhanghai.android.materialprogressbar.MaterialProgressBar;
 
-/**
- * 作者：err0r <br/>
- * 日期: 2016/8/3 17:12 <br/>
- * 描述:
- */
 @SuppressWarnings("unused")
 public class SweetDialog extends BaseDialog implements View.OnClickListener {
 

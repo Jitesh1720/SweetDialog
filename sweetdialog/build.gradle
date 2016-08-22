@@ -1,4 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    userOrg = 'pcyan' //你的用户名
+    groupId = 'io.pcyan' //你的唯一的groupId，对应com.squareup.okhttp3:okhttp:3.4.1中的com.squareup.okhttp3
+    artifactId = 'SweetDialog' //你的library的名字，对应com.squareup.okhttp3:okhttp:3.4.1中的okhttp
+    publishVersion = '1.0.0' //版本号
+    desc = 'Inspired by sweet-alert-dialog. Use DialogFragment instead of AlertDialog.'
+    website = 'https://github.com/pcyan/SweetDialog' //建议填写github地址，不过不影响，这里做演示填的自己的网址
+
+    bintrayUser = 'pcyan' //你的用户名
+    bintrayKey = '79e991aa3d5fe0e741a3506be6fc75e456150d25' //在你的账户里面查找
+}
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
